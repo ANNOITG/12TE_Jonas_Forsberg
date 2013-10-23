@@ -1,0 +1,49 @@
+﻿body {
+}
+
+#meny {
+    width: 1325px;
+    border:2px solid;
+    border-color:#808080;
+    background-color:#808080;
+    border-radius:5px;
+}
+
+#meny ul
+{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+#meny ul li
+{
+    position: relative;
+    display: inline-block;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    
+}
+
+#meny ul li a
+{
+    text-decoration: none;
+}
+
+
+#bild1 {
+    margin-left:1000px;
+}
+#bild2{
+    
+    position: relative;
+    display: inline-block;
+    height: 50px;
+
+}
+
+
+
+*{
+    box-shadow: 0 0 10px red;
+}
