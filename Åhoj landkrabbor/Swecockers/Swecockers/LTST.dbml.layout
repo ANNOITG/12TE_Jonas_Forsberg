@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LTST">
+  <DataContextMoniker Name="/LTSTDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e02ab52e-c83d-491b-a408-2bada5384836" absoluteBounds="0.875, 1, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LTSTDataContext/Band" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1765a98-8103-4f82-b4fb-f2393d2c7849" absoluteBounds="0.89, 1.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f56f5e8c-aab6-4b18-8083-5d8bc39a5e1c" absoluteBounds="3.25, 1.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LTSTDataContext/Record" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30e31cff-30bc-4e76-adb2-a1e9f5b92233" absoluteBounds="3.265, 1.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 2.01044840494792); (3.25 : 2.01044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LTSTDataContext/Band/Band_Record" />
+      <nodes>
+        <classShapeMoniker Id="e02ab52e-c83d-491b-a408-2bada5384836" />
+        <classShapeMoniker Id="f56f5e8c-aab6-4b18-8083-5d8bc39a5e1c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
